@@ -49,6 +49,7 @@ p {
   width: 75%;
   float: left;
   padding-right: 30px;
+  position: relative;
 }
 
 .other-post {
@@ -75,5 +76,12 @@ p {
 }
 
 .other {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.date {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 30px;
 }
