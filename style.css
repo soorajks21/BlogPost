@@ -35,22 +35,45 @@ p {
 
 .author-text {
   font-size: 22px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 5px;
 }
 
 .container {
   width: 1140px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto 0 auto;
 }
 
 .blog-post {
-  background-color: lightcoral;
+  width: 75%;
+  float: left;
+  padding-right: 30px;
 }
 
 .other-post {
-  background-color: lightgreen;
+  float: left;
+  width: 25%;
 }
 
 .author-post {
-  background-color: yellow;
+  border-top: 1px solid #808080;
+  padding-top: 5px;
+}
+
+.author-post img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.other {
+  margin-bottom: 10px;
 }
